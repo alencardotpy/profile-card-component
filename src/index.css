@@ -35,7 +35,21 @@ The designs were created to the following widths:
 --FontWeightMedium:700;
 
 }
+
 body{
+  background-image: url("./bg-pattern-bottom.svg"), url("./bg-pattern-top.svg");
+  background-size: 650px;
+  background-color: var(--DarkCyan);
+  background-position:
+  top 410px left 150px,
+  top -310px right 120px;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height:100vh;
   margin: 0;
   padding:0;
+
 }
