@@ -1,0 +1,7 @@
+@import url("./index.css");
+
+.card__header{
+    background-image:url("./bg-pattern-card.svg");
+    height:180px;
+    width:100%;
+}
