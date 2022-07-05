@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import App from "./Card";
 import reportWebVitals from "./reportWebVitals";
 import { sendToVercelAnalytics } from "./vitals";
 
