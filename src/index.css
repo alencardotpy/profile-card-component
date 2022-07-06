@@ -49,7 +49,50 @@ body{
   align-items: center;
   justify-content:center;
   height:100vh;
+  max-width: var(--DesktopWidth);
   margin: 0;
   padding:0;
 
+}
+
+@media screen and (min-width:768px) {
+  body{
+    background-image: url("./bg-pattern-bottom.svg"), url("./bg-pattern-top.svg");
+    background-size: 950px;
+    background-color: var(--DarkCyan);
+    background-position:
+    top 510px left 650px,
+    top -340px right 720px;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+    max-width: var(--DesktopWidth);
+    margin: 0;
+    padding:0;
+    max-width: var(--DesktopWidth);
+  }
+}
+
+@media screen and (min-width:1440px) {
+  body{
+    background-image: url("./bg-pattern-bottom.svg"), url("./bg-pattern-top.svg");
+    background-size: 1200px;
+    background-color: var(--DarkCyan);
+    background-position:
+    top 510px left 850px,
+    top -440px right 920px;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+    max-width: var(--DesktopWidth);
+    margin: 0 auto;
+    padding:0;
+    max-width: var(--DesktopWidth);
+  }
 }
